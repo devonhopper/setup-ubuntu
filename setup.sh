@@ -12,7 +12,7 @@ sudo apt install zsh -y
 sudo usermod -s /usr/bin/zsh $(whoami)
 
 # Install Antigen
-curl -L git.io/antigen > ~/antigen.zsh
+curl -L git.io/antigen > ~/.antigen.zsh
 
 # Install Nord dircolors
 git clone https://github.com/arcticicestudio/nord-dircolors ~/nord-dircolors

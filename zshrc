@@ -8,7 +8,7 @@ fi
 DEFAULT_USER=`whoami`
 eval $(dircolors ~/.dir_colors)
 
-source ~/.antigen/antigen.zsh
+source ~/.antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
