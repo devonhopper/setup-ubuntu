@@ -15,6 +15,9 @@ sudo apt install mc -y
 sudo apt install fq -y
 sudo apt install neofetch -y
 sudo apt install htop -y
+sudo apt install sysstat
+sudo apt install net-tools -y
+
 
 # Install Zsh
 printf "\n$(tput setaf 1)Install Zsh...$(tput sgr 0)\n"
