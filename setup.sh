@@ -12,6 +12,10 @@ sudo apt install fd-find -y
 printf "\n$(tput setaf 1)Install Master Commander...$(tput sgr 0)\n"
 sudo apt install mc -y
 
+sudo apt install fq -y
+sudo apt install neofetch -y
+sudo apt install htop -y
+
 # Install Zsh
 printf "\n$(tput setaf 1)Install Zsh...$(tput sgr 0)\n"
 sudo apt install zsh -y
@@ -22,9 +26,10 @@ printf "\n$(tput setaf 1)Install Antigen...$(tput sgr 0)\n"
 curl -L git.io/antigen > ~/.antigen.zsh
 
 # Install Nord dircolors
-printf "\n$(tput setaf 1)Install Nord dircolors...$(tput sgr 0)\n"
-git clone https://github.com/arcticicestudio/nord-dircolors ~/nord-dircolors
-cp ~/nord-dircolors/src/dir_colors ~/.dir_colors
+printf "\n$(tput setaf 1)Install dircolors...$(tput sgr 0)\n"
+git clone https://github.com/seebi/dircolors-solarized ~/dircolors-solarized
+cp ~/dircolors-solarized/dircolors.256dark ~/.dir_colors
+
 
 # Copy zshrc and p10k.zsh
 printf "\n$(tput setaf 1)Customizing...$(tput sgr 0)\n"
