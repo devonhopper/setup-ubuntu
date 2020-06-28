@@ -18,6 +18,7 @@ antigen bundle command-not-found
 antigen bundle dircycle
 antigen bundle docker
 antigen bundle git
+antigen bundle ssh-agent
 antigen bundle sudo
 
 # Bundles from the zsh-users repo.
