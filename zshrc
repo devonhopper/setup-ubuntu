@@ -33,8 +33,8 @@ antigen theme romkatv/powerlevel10k
 antigen apply
 
 
-alias getpwd='f() { lpass show -p $1 | clip.exe };f'
+# alias getpwd='f() { lpass show -p $1 | clip.exe };f'
 
+alias vpnproxy='f() { docker run -it --rm -p 1080:1080 --cap-add=SYS_ADMIN --cap-add=NET_ADMIN -e NO_UPDATE=1 vpntest $1 };f' 
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source ~/.p10k.zsh
