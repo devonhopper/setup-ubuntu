@@ -18,6 +18,7 @@ sudo apt install htop -y
 sudo apt install sysstat -y
 sudo apt install net-tools -y
 sudo apt install glances -y
+sudo apt install jq -y
 
 
 # Install Zsh
