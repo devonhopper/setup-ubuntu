@@ -15,8 +15,9 @@ sudo apt install mc -y
 sudo apt install fq -y
 sudo apt install neofetch -y
 sudo apt install htop -y
-sudo apt install sysstat
+sudo apt install sysstat -y
 sudo apt install net-tools -y
+sudo apt install glances -y
 
 
 # Install Zsh
