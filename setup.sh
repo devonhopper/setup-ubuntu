@@ -18,8 +18,9 @@ sudo apt install htop -y
 sudo apt install sysstat -y
 sudo apt install net-tools -y
 sudo apt install glances -y
-sudo apt install jq -y
-
+# sudo apt install jq -y
+sudo snap install jq
+sudo snap install yq
 
 # Install Zsh
 printf "\n$(tput setaf 1)Install Zsh...$(tput sgr 0)\n"
