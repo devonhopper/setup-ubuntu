@@ -6,7 +6,7 @@ sudo apt upgrade -y
 
 # Install some needed tools
 printf "\n$(tput setaf 1)Install Tree...$(tput sgr 0)\n"
-sudo apt install tree -y
+sudo snap install tree -y
 printf "\n$(tput setaf 1)Install FD...$(tput sgr 0)\n"
 sudo apt install fd-find -y
 printf "\n$(tput setaf 1)Install Master Commander...$(tput sgr 0)\n"
@@ -18,7 +18,6 @@ sudo apt install htop -y
 sudo apt install sysstat -y
 sudo apt install net-tools -y
 sudo apt install glances -y
-# sudo apt install jq -y
 sudo snap install jq
 sudo snap install yq
 
